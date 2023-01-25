@@ -1,0 +1,40 @@
+body {
+    background: rgb(40, 147, 161);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1abc9c;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+#output{
+    width: 300px;
+    background-color: black;
+    color: #00eaff;
+    border-radius: 8px;
+    font-size: large;
+    text-align: center;
+}
+
+#errorText{
+    width: 300px;
+    background-color: black;
+    color: red;
+    border-radius: 8px;
+    font-size: large;
+    text-align: center;
+}

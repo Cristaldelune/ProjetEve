@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Convertisseur de temps</title>
+  </head>
+  <body>
+    <h1>Convertisseur de temps</h1>
+    <form>
+      <label>Entrez un nombre de secondes :</label>
+      <input type="number" id="inputSeconds">
+      <button type="button" onclick="main()">Convertir</button>
+    </form>
+    <p id="output"></p>
+    <script src="main.js"></script>
+  </body>
+</html>
